@@ -1,0 +1,26 @@
+.search{
+    display: inline-block;
+    background: url('../../assets/icons/Search.svg');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left;
+    background-position-x: 2%;
+    font-family: raleway;
+    font-size: 1.1rem;
+    padding-left: 40px;
+}
+
+
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    font-family: raleway-sb;
+    font-size: 1.1rem;
+    margin-left: 20px;
+}

@@ -1,0 +1,115 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: raleway;
+}
+.contact-left h1{
+    font-family: raleway-eb;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+}
+
+.left-details{
+    width: 80%;
+}
+.left-details ul{
+    list-style: none;
+}
+.left-details li{
+    padding-top: 2rem;
+}
+.left-details span{
+    padding-inline: 0.8rem;
+    font-family: raleway-sb;
+}
+.phone{
+    width: 35px;
+    height: 35px;
+}
+.mail{
+    width: 35px;
+    height: 35px;
+}
+.location{
+    width: 35px;
+    height: 35px;
+}
+.contact-right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: url('../../assets//images/double-bubble-outline.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    height: 80%;
+}
+.right-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.right-details form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-family: raleway;
+}
+.right-details h1{
+    text-transform: uppercase;
+    font-family: raleway-eb;
+    font-size: 2rem;
+    margin-bottom: 4%;
+}
+
+.right-details label{
+    padding-top: 0.8rem;
+    padding-bottom: 0.2rem;
+    font-size: 0.9rem;
+    font-family: raleway-sb;
+}
+.right-details input{
+    border: 2px solid rgb(48, 48, 48,0.3);
+    border-radius: 5px;
+    outline: none;
+    height: 45px;
+    font-size: 0.8rem;
+    padding-left: 1.2rem;
+    background: rgb(253, 252, 252,0.95);
+}
+.right-details textarea{
+    border: 2px solid rgb(48, 48, 48,0.3);
+    outline: none;
+    background: rgb(253, 252, 252,0.95);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+    height: 140px;
+}
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background: #000;
+    color: white;
+    font-family: raleway-eb;
+    font-size: 0.9rem;
+    margin-top: 4%;
+    border-radius: 4px;
+}

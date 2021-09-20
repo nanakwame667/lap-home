@@ -1,0 +1,28 @@
+.hp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.hp-search{
+    margin-top: 10%;
+}
+
+.hp-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    font-family: raleway;
+}
+
+.hp-content h1{
+    font-family: raleway-eb;
+    text-transform: uppercase;
+}
+.hp-content h2{
+    padding-top: 5%;
+    text-transform: uppercase;
+    font-family: raleway-b;
+}

@@ -1,0 +1,31 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.categories-search{
+    margin-top: 10%;
+}
+
+.categories-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    font-family: raleway;
+}
+.categories-content h1{
+    font-family: raleway-eb;
+    text-transform: uppercase;
+}
+.categories-content h2{
+    padding-top: 5%;
+    text-transform: uppercase;
+    font-family: raleway-b;
+}
+.cat-section-hp{
+    margin-top:3% ;
+}
